@@ -1,4 +1,4 @@
-click
-pylint
-pytest
-fastapi
+click==8.0.3
+pylint==2.11.1
+pytest==6.2.5
+fastapi==0.70.0
