@@ -4,5 +4,5 @@ WORKDIR /app
 
 COPY . app.py /app/
 
-RUN pip install --upgrade pip &&\
+RUN pip install pip==21.3.1 &&\
     pip install -r requirements.txt
